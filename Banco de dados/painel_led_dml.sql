@@ -1,21 +1,20 @@
-create database PainelSenai;
+USE PainelSenai;
 GO
 
-create table Usuario(
-idUsuario int primary key identity,
-nomeUsuario varchar(500),
-email varchar(500),
-senha varchar(8)
-
-);
+INSERT INTO TipoUsuario(nomeTipoUsuario)
+VALUES ('Administrador'),('Marketing');
 GO
 
-create table Campanha(
-idCampanha int primary key identity,
-idUsuario int foreign key references Usuario(idUsuario),
-nomeCampanha varchar(500),
-dataInicio datetime,
-dataFim datetime,
-imagem varchar(500),
-);
+INSERT INTO Usuario(idTipoUsuario,nomeUsuario,email,senha)
+VALUES  ('1','Juscelino','juscelino@teste.com','12345678'),
+       ('2','Marketing','mkt1@teste.com','87654321');
 GO
+
+INSERT INTO CadastrarCampanha(idUsuario,nomeCampanha,dataInicio,dataFim,arquivo)
+VALUES ('1','Abertura do curso','05/02/2023','19/05/2023','/img/teste1.png'),
+       ('2','Outubro rosa','02/10/2023','30/10/2023','/img/teste2.png');
+GO
+
+select * from TipoUsuario;
+select * from Usuario;
+select * from CadastrarCampanha;
