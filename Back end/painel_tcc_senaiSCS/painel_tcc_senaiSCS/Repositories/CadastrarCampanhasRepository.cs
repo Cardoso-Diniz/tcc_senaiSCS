@@ -1,4 +1,5 @@
-﻿using painel_tcc_senaiSCS.Contexts;
+﻿using Microsoft.AspNetCore.Http;
+using painel_tcc_senaiSCS.Contexts;
 using painel_tcc_senaiSCS.Domains;
 using painel_tcc_senaiSCS.Interfaces;
 using System;
@@ -42,6 +43,7 @@ namespace painel_tcc_senaiSCS.Repositories
 
             ctx.SaveChanges();
         }
+
 
         public void Deletar(int idCadastrarCampanha)
         {

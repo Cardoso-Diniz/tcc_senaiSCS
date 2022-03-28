@@ -26,10 +26,8 @@ namespace painel_tcc_senaiSCS.Contexts
         {
             if (!optionsBuilder.IsConfigured)
             {
-                // Pc de Casa
-                optionsBuilder.UseSqlServer("Data Source=DESKTOP-833QVK4\\SQLEXPRESS; initial catalog=PainelSenai; user Id=sa; pwd=senai@132;");
                 // Pc do Senai
-                //optionsBuilder.UseSqlServer("Data Source=NOTE0113C4\\SQLEXPRESS; initial catalog=PainelSenai; user Id=sa; pwd=Senai@132;");
+                optionsBuilder.UseSqlServer("Data Source=NOTE0113C4\\SQLEXPRESS; initial catalog=PainelSenai; user Id=sa; pwd=Senai@132;");
             }
         }
 

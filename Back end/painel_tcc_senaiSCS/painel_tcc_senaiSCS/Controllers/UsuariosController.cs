@@ -23,7 +23,7 @@ namespace painel_tcc_senaiSCS.Controllers
             Usuario = new UsuariosRepository();
         }
 
-        [Authorize(Roles = "1,2")]
+        //[Authorize(Roles = "1,2")]
         [HttpGet]
         public IActionResult Listar()
         {

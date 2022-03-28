@@ -1,13 +1,16 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using painel_tcc_senaiSCS.Domains;
 using painel_tcc_senaiSCS.Interfaces;
 using painel_tcc_senaiSCS.Repositories;
+using Campanha.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using painel_tcc_senaiSCS.Contexts;
 
 namespace painel_tcc_senaiSCS.Controllers
 {
@@ -18,38 +21,17 @@ namespace painel_tcc_senaiSCS.Controllers
     {
         private ICadastrarCampanhasRepository _cadastrarCampanhaRepository { get; set; }
 
+        private readonly PainelSenaiContext _context;
+        public CadastrarCampanhasController(PainelSenaiContext context)
+        {
+            _context = context;
+        }
         public CadastrarCampanhasController()
         {
             _cadastrarCampanhaRepository = new CadastrarCampanhasRepository();
         }
 
 
-        /// <summary>
-        /// Método responsável por cadastrar uma nova Campanha
-        /// </summary>
-        /// <param name="NovaCampanha">Objeto Campanha com os atributos a serem cadastrados</param>
-        /// <returns>Status code 201 created</returns>
-        ///[Authorize(Roles = "1")]
-        [HttpPost]
-        public IActionResult Cadastrar(CadastrarCampanha CadastrarNovaCampanha)
-        {
-            try
-            {
-                _cadastrarCampanhaRepository.Cadastrar(CadastrarNovaCampanha);
-
-                return StatusCode(201);
-
-            }
-            catch (Exception erro)
-            {
-                return BadRequest(erro);
-            }
-        }
-
-        /// <summary>
-        /// Método responsável por listar todas as Campanhas
-        /// </summary>
-        /// <returns>uma lista de Campanhas</returns>
         [Authorize]
         [HttpGet]
         public IActionResult ListarTodos()
@@ -134,6 +116,33 @@ namespace painel_tcc_senaiSCS.Controllers
             {
                 return BadRequest(erro);
             }
+        }
+        [HttpPost]
+        public async Task<ActionResult<CadastrarCampanha>> PostCadastrarCampanha([FromForm] CadastrarCampanha cadastrarCampanha, IFormFile arquivo)
+        {
+
+            #region Upload da Imagem com extensões permitidas apenas
+            string[] extensoesPermitidas = { "jpg", "png", "jpeg", "gif" };
+            string uploadResultado = Upload.UploadFile(arquivo, extensoesPermitidas);
+
+            if (uploadResultado == "")
+            {
+                return BadRequest("Arquivo não encontrado");
+            }
+
+            if (uploadResultado == "Extensão não permitxida")
+            {
+                return BadRequest("Extensão de arquivo não permitida");
+            }
+
+            cadastrarCampanha.Arquivo = uploadResultado;
+            #endregion
+
+
+            _context.CadastrarCampanhas.Add(cadastrarCampanha);
+            await _context.SaveChangesAsync();
+
+            return Created("Campanha", cadastrarCampanha);
         }
     }
 }

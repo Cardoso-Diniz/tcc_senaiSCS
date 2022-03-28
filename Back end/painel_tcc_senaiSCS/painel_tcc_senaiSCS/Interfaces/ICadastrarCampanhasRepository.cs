@@ -1,4 +1,5 @@
-﻿using painel_tcc_senaiSCS.Domains;
+﻿using Microsoft.AspNetCore.Http;
+using painel_tcc_senaiSCS.Domains;
 using System;
 using System.Collections.Generic;
 using System.Linq;
