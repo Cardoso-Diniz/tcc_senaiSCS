@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace painel_tcc_senaiSCS.Interfaces
 {
-    interface ITipoUsuario
+    interface ITiposUsuariosRepository
     {
         List<TipoUsuario> ListarTodos();
         List<TipoUsuario> ListarUser();

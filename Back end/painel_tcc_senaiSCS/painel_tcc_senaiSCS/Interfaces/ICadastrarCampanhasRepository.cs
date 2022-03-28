@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace painel_tcc_senaiSCS.Interfaces
 {
-    interface ICadastrarCampanha
+    interface ICadastrarCampanhasRepository
     {
         List<CadastrarCampanha> ListarTodos();
         CadastrarCampanha BuscarPorId(int idCadastrarCampanha);
-        void Cadastrar(int idCadastrarCampanha);
-        void Atualizar(int idCadastrarCampanha);
-        void Deletar(int idCadastrarCampanha);
+        void Cadastrar(CadastrarCampanha CadastrarNovaCampanha);
+        void Atualizar(int id, CadastrarCampanha CampanhaAtualizada);
+        void Deletar(int id);
     }
 }
