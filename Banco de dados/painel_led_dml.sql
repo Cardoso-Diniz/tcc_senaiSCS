@@ -2,12 +2,13 @@ USE PainelSenai;
 GO
 
 INSERT INTO TipoUsuario(nomeTipoUsuario)
-VALUES ('Administrador'),('Marketing');
+VALUES ('Administrador'),('Comum'),('Televisao');
 GO
 
 INSERT INTO Usuario(idTipoUsuario,nomeUsuario,email,senha)
 VALUES  ('1','Juscelino','juscelino@teste.com','12345678'),
-       ('2','Marketing','mkt1@teste.com','87654321');
+       ('2','Marketing','mkt1@teste.com','87654321'),
+	   ('3','Televisor','televisao@teste.com','12345678');
 GO
 
 INSERT INTO CadastrarCampanha(idUsuario,nomeCampanha,dataInicio,dataFim,arquivo)

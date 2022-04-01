@@ -93,7 +93,7 @@ namespace painel_tcc_senaiSCS
 
             services.AddTransient<DbContext, PainelSenaiContext>();
             services.AddTransient<IUsuariosRepository, UsuariosRepository>();
-            services.AddTransient<ICadastrarCampanhasRepository, CadastrarCampanhasRepository>();
+            services.AddTransient<ICampanhasRepository, CampanhasRepository>();
             services.AddTransient<ITiposUsuariosRepository, TiposUsuariosRepository>();
         }
 

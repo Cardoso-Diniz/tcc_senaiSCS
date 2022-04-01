@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace painel_tcc_senaiSCS.Repositories
 {
-    public class CadastrarCampanhasRepository : ICadastrarCampanhasRepository
+    public class CampanhasRepository : ICampanhasRepository
     {
         PainelSenaiContext ctx = new PainelSenaiContext();
   

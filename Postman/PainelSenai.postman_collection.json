@@ -1,0 +1,188 @@
+{
+	"info": {
+		"_postman_id": "897e2316-59df-47bb-9290-392f8eb5ffbb",
+		"name": "PainelSenai",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cadastrar Campanha",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/CadastrarCampanha",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"CadastrarCampanha"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastrar Campanha",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imp1c2NlbGlub0B0ZXN0ZS5jb20iLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsInJvbGUiOiIxIiwiZXhwIjoxNjQ4NjQ3MDUwLCJpc3MiOiJQYWluZWwud2ViQVBJIiwiYXVkIjoiUGFpbmVsLndlYkFQSSJ9.TkyQKXKJIkqVr0Em9rd-xhoA9lQyBhDSQXdOUyP0mLE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Arquivo",
+							"type": "file",
+							"src": "/C:/Users/45626492836.INFOSCS/Downloads/MAIO-AMARELO-e1558701364442-300x271.jpg"
+						},
+						{
+							"key": "idCampanha",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "idUsuario",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "NomeCampanha",
+							"value": "MaioAmarelo",
+							"type": "text"
+						},
+						{
+							"key": "DataInicio",
+							"value": "01/05/2022",
+							"type": "text"
+						},
+						{
+							"key": "DataFim",
+							"value": "31/05/2022",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Campanhas/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Campanhas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login - Adm",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"juscelino@teste.com \",\r\n  \"senha\": \"12345678\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login - Marketing",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"mkt1@teste.com\",\r\n  \"senha\": \"87654321\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer"
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

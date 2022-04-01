@@ -51,7 +51,7 @@ namespace painel_tcc_senaiSCS.Controllers
             }
         }
 
-        [Authorize(Roles = "1")]
+        //[Authorize(Roles = "1")]
         [HttpPost]
         public IActionResult Cadastro(Usuario NovoUser)
         {

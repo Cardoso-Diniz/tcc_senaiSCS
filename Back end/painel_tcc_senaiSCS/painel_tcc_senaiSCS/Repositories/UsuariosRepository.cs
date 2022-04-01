@@ -1,6 +1,7 @@
 ﻿using painel_tcc_senaiSCS.Contexts;
 using painel_tcc_senaiSCS.Domains;
 using painel_tcc_senaiSCS.Interfaces;
+using painel_tcc_senaiSCS.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -52,7 +53,23 @@ namespace painel_tcc_senaiSCS.Repositories
 
         public Usuario Login(string email, string senha)
         {
-            return ctx.Usuarios.FirstOrDefault(e => e.Email == email && e.Senha == senha);
+            return ctx.Usuarios.FirstOrDefault(e => e.Email == email && e.Senha==senha);
+            //var usuario ctx.Usuarios.FirstOrDefault(e => e.Email == email);
+            //if (usuario != null)
+            //{ 
+            //    if (usuario.Senha.Length < 32)
+            //    {
+            //        usuario.Senha = Criptografia.GerarHash(usuario.Senha);
+            //        ctx.Update(usuario);
+            //        ctx.SaveChanges();
+            //    }
+
+            //    bool comparado = Criptografia.Comparar(senha, usuario.Senha);
+            //    if (comparado)
+            //        return usuario;
+            //}
+
+            //return null;
         }
     }
 }
