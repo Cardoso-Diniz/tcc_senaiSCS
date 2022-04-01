@@ -17,18 +17,14 @@ namespace painel_tcc_senaiSCS.Controllers
     [ApiController]
     public class CampanhasController : ControllerBase
     {
-        private ICampanhasRepository _campanhasRepository { get; set; }
-        /// <summary>
-        /// Objeto que irá receber todos os métodos da interface
-        /// </summary>
-        private readonly PainelSenaiContext _context;
+        private readonly ICampanhasRepository _campanhasRepository;
 
         /// <summary>
         /// Instancia o objeto para que haja referência às implementações no repositório
         /// </summary>
-        public CampanhasController(PainelSenaiContext context)
+        public CampanhasController(ICampanhasRepository context)
         {
-            _context = context;
+            _campanhasRepository = context;
         }
         /// <summary>
         /// Lista todos as Campanhas existentes
@@ -107,8 +103,9 @@ namespace painel_tcc_senaiSCS.Controllers
 
             return StatusCode(204);
         }
+
         [HttpPost]
-        public async Task<ActionResult<CadastrarCampanha>> PostEquipamento([FromForm] CadastrarCampanha campanha, IFormFile arquivo)
+        public IActionResult Cadastrar([FromForm] CadastrarCampanha campanha, IFormFile arquivo)
         {
 
             #region Upload da Imagem com extensões permitidas apenas
@@ -128,8 +125,7 @@ namespace painel_tcc_senaiSCS.Controllers
             campanha.Arquivo = uploadResultado;
             #endregion
 
-            _context.CadastrarCampanhas.Add(campanha);
-            await _context.SaveChangesAsync();
+            _campanhasRepository.Cadastrar(campanha);
 
             return Created("Campanha", campanha);
         }

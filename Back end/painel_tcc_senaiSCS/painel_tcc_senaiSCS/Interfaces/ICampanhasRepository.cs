@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace painel_tcc_senaiSCS.Interfaces
 {
-    interface ICampanhasRepository
+    public interface ICampanhasRepository
     {
         List<CadastrarCampanha> ListarTodos();
         CadastrarCampanha BuscarPorId(int idCadastrarCampanha);
