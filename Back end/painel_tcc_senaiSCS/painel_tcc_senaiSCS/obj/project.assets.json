@@ -7794,19 +7794,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\45626492836.INFOSCS\\.nuget\\packages\\": {}
+    "C:\\Users\\guica\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\45626492836.INFOSCS\\Desktop\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS.csproj",
+      "projectUniqueName": "C:\\Users\\guica\\Desktop\\SENAI\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS.csproj",
       "projectName": "painel_tcc_senaiSCS",
-      "projectPath": "C:\\Users\\45626492836.INFOSCS\\Desktop\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS.csproj",
-      "packagesPath": "C:\\Users\\45626492836.INFOSCS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\45626492836.INFOSCS\\Desktop\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\obj\\",
+      "projectPath": "C:\\Users\\guica\\Desktop\\SENAI\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS.csproj",
+      "packagesPath": "C:\\Users\\guica\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\guica\\Desktop\\SENAI\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\45626492836.INFOSCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\guica\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7885,6 +7885,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.12, 5.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -7893,7 +7899,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

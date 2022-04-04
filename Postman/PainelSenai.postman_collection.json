@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "897e2316-59df-47bb-9290-392f8eb5ffbb",
+		"_postman_id": "8c232580-61b2-44bb-ae92-aecf43f62cac",
 		"name": "PainelSenai",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -45,7 +45,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imp1c2NlbGlub0B0ZXN0ZS5jb20iLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsInJvbGUiOiIxIiwiZXhwIjoxNjQ4NjQ3MDUwLCJpc3MiOiJQYWluZWwud2ViQVBJIiwiYXVkIjoiUGFpbmVsLndlYkFQSSJ9.TkyQKXKJIkqVr0Em9rd-xhoA9lQyBhDSQXdOUyP0mLE",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imp1c2NlbGlub0B0ZXN0ZS5jb20iLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsInJvbGUiOiIxIiwiZXhwIjoxNjQ5MDM3MjE0LCJpc3MiOiJQYWluZWwud2ViQVBJIiwiYXVkIjoiUGFpbmVsLndlYkFQSSJ9._f7OGl7FSgCHiYNxv5LwB7XTALzILmu101Qq_Up7Hj8",
 							"type": "string"
 						}
 					]
@@ -58,12 +58,13 @@
 						{
 							"key": "Arquivo",
 							"type": "file",
-							"src": "/C:/Users/45626492836.INFOSCS/Downloads/MAIO-AMARELO-e1558701364442-300x271.jpg"
+							"src": "/C:/Users/guica/Pictures/transferir.jpg"
 						},
 						{
 							"key": "idCampanha",
 							"value": "3",
-							"type": "text"
+							"type": "text",
+							"disabled": true
 						},
 						{
 							"key": "idUsuario",
@@ -72,23 +73,23 @@
 						},
 						{
 							"key": "NomeCampanha",
-							"value": "MaioAmarelo",
+							"value": "Senai Curso",
 							"type": "text"
 						},
 						{
 							"key": "DataInicio",
-							"value": "01/05/2022",
+							"value": "01/04/2022",
 							"type": "text"
 						},
 						{
 							"key": "DataFim",
-							"value": "31/05/2022",
+							"value": "29/04/2022",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/Campanhas/1",
+					"raw": "http://localhost:5000/api/Campanhas",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -96,8 +97,7 @@
 					"port": "5000",
 					"path": [
 						"api",
-						"Campanhas",
-						"1"
+						"Campanhas"
 					]
 				}
 			},
