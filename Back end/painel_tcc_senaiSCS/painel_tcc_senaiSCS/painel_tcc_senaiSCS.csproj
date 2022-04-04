@@ -10,12 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="StaticFiles\Images\1acb61db-dd4e-408d-9688-6ee178b2f092.png" />
-    <None Remove="StaticFiles\Images\867da279-d6ee-40b5-b17a-a6c03afcde2a.png" />
-    <None Remove="StaticFiles\Images\c9aa71cd-2ba0-470e-9df1-0d6f07a8f0a5.png" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.14" />

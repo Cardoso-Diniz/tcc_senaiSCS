@@ -5,7 +5,7 @@ using painel_tcc_senaiSCS.Domains;
 
 #nullable disable
 
-namespace painel_tcc_senaiSCS.Context
+namespace painel_tcc_senaiSCS.Contexts
 {
     public partial class PainelSenaiContext : DbContext
     {
@@ -26,8 +26,8 @@ namespace painel_tcc_senaiSCS.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Data Source=NOTE0113C4\\SQLEXPRESS; Initial Catalog=PainelSenai; integrated security=true;");
+                // Pc do Senai
+                optionsBuilder.UseSqlServer("Data Source=NOTE0113C4\\SQLEXPRESS; initial catalog=PainelSenai; user Id=sa; pwd=Senai@132;");
             }
         }
 
@@ -38,7 +38,7 @@ namespace painel_tcc_senaiSCS.Context
             modelBuilder.Entity<CadastrarCampanha>(entity =>
             {
                 entity.HasKey(e => e.IdCampanha)
-                    .HasName("PK__Cadastra__64DAD29964097B37");
+                    .HasName("PK__Cadastra__64DAD299C52EC13B");
 
                 entity.ToTable("CadastrarCampanha");
 
@@ -67,13 +67,13 @@ namespace painel_tcc_senaiSCS.Context
                 entity.HasOne(d => d.IdUsuarioNavigation)
                     .WithMany(p => p.CadastrarCampanhas)
                     .HasForeignKey(d => d.IdUsuario)
-                    .HasConstraintName("FK__Cadastrar__idUsu__29572725");
+                    .HasConstraintName("FK__Cadastrar__idUsu__3B75D760");
             });
 
             modelBuilder.Entity<TipoUsuario>(entity =>
             {
                 entity.HasKey(e => e.IdTipoUsuario)
-                    .HasName("PK__TipoUsua__03006BFFB223981A");
+                    .HasName("PK__TipoUsua__03006BFFAC2A72BA");
 
                 entity.ToTable("TipoUsuario");
 
@@ -89,7 +89,7 @@ namespace painel_tcc_senaiSCS.Context
             modelBuilder.Entity<Usuario>(entity =>
             {
                 entity.HasKey(e => e.IdUsuario)
-                    .HasName("PK__Usuario__645723A6E5F21487");
+                    .HasName("PK__Usuario__645723A6474B1FBB");
 
                 entity.ToTable("Usuario");
 
@@ -115,7 +115,7 @@ namespace painel_tcc_senaiSCS.Context
                 entity.HasOne(d => d.IdTipoUsuarioNavigation)
                     .WithMany(p => p.Usuarios)
                     .HasForeignKey(d => d.IdTipoUsuario)
-                    .HasConstraintName("FK__Usuario__idTipoU__267ABA7A");
+                    .HasConstraintName("FK__Usuario__idTipoU__38996AB5");
             });
 
             OnModelCreatingPartial(modelBuilder);

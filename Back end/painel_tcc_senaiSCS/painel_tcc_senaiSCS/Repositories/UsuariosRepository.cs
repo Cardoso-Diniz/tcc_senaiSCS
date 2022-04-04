@@ -1,4 +1,4 @@
-﻿using painel_tcc_senaiSCS.Context;
+﻿using painel_tcc_senaiSCS.Contexts;
 using painel_tcc_senaiSCS.Domains;
 using painel_tcc_senaiSCS.Interfaces;
 using painel_tcc_senaiSCS.Utils;
