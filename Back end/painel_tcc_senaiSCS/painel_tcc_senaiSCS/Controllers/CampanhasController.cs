@@ -1,7 +1,7 @@
 ﻿using Campanha.Utils;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using painel_tcc_senaiSCS.Context;
+using painel_tcc_senaiSCS.Contexts;
 using painel_tcc_senaiSCS.Domains;
 using painel_tcc_senaiSCS.Interfaces;
 using painel_tcc_senaiSCS.Repositories;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\45626492836.INFOSCS\\Desktop\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS.csproj": {}
+    "C:\\Users\\45626492836.INFOSCS\\Desktop\\testte\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\45626492836.INFOSCS\\Desktop\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS.csproj": {
+    "C:\\Users\\45626492836.INFOSCS\\Desktop\\testte\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\45626492836.INFOSCS\\Desktop\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS.csproj",
+        "projectUniqueName": "C:\\Users\\45626492836.INFOSCS\\Desktop\\testte\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS.csproj",
         "projectName": "painel_tcc_senaiSCS",
-        "projectPath": "C:\\Users\\45626492836.INFOSCS\\Desktop\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS.csproj",
+        "projectPath": "C:\\Users\\45626492836.INFOSCS\\Desktop\\testte\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS.csproj",
         "packagesPath": "C:\\Users\\45626492836.INFOSCS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\45626492836.INFOSCS\\Desktop\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\obj\\",
+        "outputPath": "C:\\Users\\45626492836.INFOSCS\\Desktop\\testte\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\45626492836.INFOSCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,6 +69,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.14, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
