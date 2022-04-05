@@ -53,23 +53,34 @@ namespace painel_tcc_senaiSCS.Repositories
 
         public Usuario Login(string email, string senha)
         {
-            return ctx.Usuarios.FirstOrDefault(e => e.Email == email && e.Senha==senha);
-            //var usuario ctx.Usuarios.FirstOrDefault(e => e.Email == email);
-            //if (usuario != null)
-            //{ 
-            //    if (usuario.Senha.Length < 32)
-            //    {
-            //        usuario.Senha = Criptografia.GerarHash(usuario.Senha);
-            //        ctx.Update(usuario);
-            //        ctx.SaveChanges();
-            //    }
+            var user = ctx.Usuarios.FirstOrDefault(u => u.Email == email);
 
-            //    bool comparado = Criptografia.Comparar(senha, usuario.Senha);
-            //    if (comparado)
-            //        return usuario;
-            //}
 
-            //return null;
+            if (user != null)
+            {
+                if (Criptografia.Validate(user.Senha) == true)
+                {
+                    bool IsEncrypted = Criptografia.Comparar(senha, user.Senha);
+                    if (IsEncrypted)    
+                        return user;
+                }
+                else
+                {
+                    EncryptPassword(user);
+                    bool IsEncrypted = Criptografia.Comparar(senha, user.Senha);
+                    if (IsEncrypted)
+                        return user;
+                }
+            }
+
+            return null;
         }
+        public async void EncryptPassword(Usuario _user)
+        {
+            _user.Senha = Criptografia.GerarHash(_user.Senha);
+            ctx.Usuarios.Update(_user);
+            await ctx.SaveChangesAsync();
+        }
+
     }
 }

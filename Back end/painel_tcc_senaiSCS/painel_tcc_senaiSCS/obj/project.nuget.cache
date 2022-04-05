@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7NsyWQ9vOdTDNKLnJqv9ayBq6lSEq329njv1lTtEN0kXakpOsqa/3xNuA9KB2+qVvpowT1AdX8J0+DbEbWBuNw==",
+  "dgSpecHash": "2j8Ssi+1PEKPyTZ3173yj+XVAp6blwK2qP/fr+kma1QRw+86OM6gJxG0IslLePUZgm0aNThp3OI+lPH7MxeyWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\45626492836.INFOSCS\\Desktop\\testte\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS.csproj",
+  "projectFilePath": "C:\\Users\\45626492836.INFOSCS\\Desktop\\tcc_senaiSCS\\Back end\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS\\painel_tcc_senaiSCS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\45626492836.INFOSCS\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\45626492836.INFOSCS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

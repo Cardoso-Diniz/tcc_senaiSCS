@@ -14,7 +14,7 @@ idUsuario int primary key identity,
 idTipoUsuario int foreign key references TipoUsuario(idTipoUsuario),
 nomeUsuario varchar(500),
 email varchar(500),
-senha varchar(8)
+senha varchar(100)
 );
 GO
 
