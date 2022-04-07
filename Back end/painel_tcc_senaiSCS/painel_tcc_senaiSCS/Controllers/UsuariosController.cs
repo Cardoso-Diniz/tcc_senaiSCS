@@ -37,7 +37,7 @@ namespace painel_tcc_senaiSCS.Controllers
             }
         }
 
-        [Authorize(Roles = "1,2")]
+
         [HttpGet("{id}")]
         public IActionResult BuscarPorId(int id)
         {
@@ -51,7 +51,7 @@ namespace painel_tcc_senaiSCS.Controllers
             }
         }
 
-        //[Authorize(Roles = "1")]
+        [Authorize(Roles = "1")]
         [HttpPost]
         public IActionResult Cadastro(Usuario NovoUser)
         {
@@ -68,7 +68,7 @@ namespace painel_tcc_senaiSCS.Controllers
             }
         }
 
-        [Authorize(Roles = "1")]
+        [Authorize(Roles = "1,2")]
         [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
         {
@@ -83,7 +83,7 @@ namespace painel_tcc_senaiSCS.Controllers
             }
         }
 
-        [Authorize(Roles = "1")]
+        [Authorize(Roles = "1,2")]
         [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Usuario NovoUser)
         {

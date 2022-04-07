@@ -19,17 +19,15 @@ namespace painel_tcc_senaiSCS.Controllers
     {
         private readonly ICampanhasRepository _campanhasRepository;
 
-        /// <summary>
-        /// Instancia o objeto para que haja referência às implementações no repositório
-        /// </summary>
+       /// <summary>
         public CampanhasController(ICampanhasRepository context)
         {
             _campanhasRepository = context;
         }
         /// <summary>
-        /// Lista todos as Campanhas existentes
+        /// Listar Todas as Campanhas
         /// </summary>
-        /// <returns>Uma lista de campanha</returns>
+        /// <returns></returns>
         //[Authorize(Roles = "2")]
         [HttpGet("ListarTodos")]
         public IActionResult ListarTodos()
@@ -54,26 +52,12 @@ namespace painel_tcc_senaiSCS.Controllers
             return Ok(CadastrarCampanhaBuscada);
         }
 
-
-
         /// <summary>
-        /// Cadastra uma Campanha
+        /// Atualiza uma Campanha existente!!
         /// </summary>
-        /// <param name="CadastrarNovaCampanha">Campanha a ser cadastrado</param>
-        /// <returns>Um status code 201 - Created</returns>
-        //[HttpPost]
-        //public IActionResult Cadastrar(CadastrarCampanha CadastrarNovaCampanha)
-        //{
-        //    _campanhasRepository.Cadastrar(CadastrarNovaCampanha);
-
-        //    return StatusCode(201);
-        //}
-
-        /// <summary>
-        /// Atualiza uma Campanha existente
-        /// </summary>
-        /// <param name="CampanhaAtualizada">Objeto com as novas informações da Campanha e o id da Campanha a ser atualizada</param>
-        /// <returns>Um status code 204 - No content</returns>
+        /// <param name="idCadastrarCampanha"></param>
+        /// <param name="CampanhaAtualizada"></param>
+        /// <returns></returns>
         //[Authorize(Roles = "2")]
         [HttpPut("{idClinica}")]
         public IActionResult Atualizar(int idCadastrarCampanha, CadastrarCampanha CampanhaAtualizada)
@@ -92,10 +76,10 @@ namespace painel_tcc_senaiSCS.Controllers
         }
 
         /// <summary>
-        /// Deleta uma Campanha
+        /// Deleta uma campanha
         /// </summary>
-        /// <param name="idCadastrarCampanha">id da Campanha a ser deletada/param>
-        /// <returns>Um status code 204 - No content</returns>
+        /// <param name="idCadastrarCampanha"></param>
+        /// <returns></returns>
         [HttpDelete("{idCadastrarCampanha}")]
         public IActionResult Deletar(int idCadastrarCampanha)
         {
