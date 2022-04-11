@@ -16,6 +16,6 @@ VALUES ('1','Abertura do curso','05/02/2023','19/05/2023','/img/teste1.png'),
        ('2','Outubro rosa','02/10/2023','30/10/2023','/img/teste2.png');
 GO
 
-select * from TipoUsuario;
-select * from Usuario;
-select * from CadastrarCampanha;
+	select * from TipoUsuario;
+	select * from Usuario;
+	select * from CadastrarCampanha;

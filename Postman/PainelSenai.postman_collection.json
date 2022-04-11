@@ -1,16 +1,26 @@
 {
 	"info": {
-		"_postman_id": "897e2316-59df-47bb-9290-392f8eb5ffbb",
+		"_postman_id": "2df5d959-2eb3-4d82-ae0d-26115cc9e87c",
 		"name": "PainelSenai",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "Cadastrar Campanha",
+			"name": "Listar Campanha",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imp1c2NlbGlub0B0ZXN0ZS5jb20iLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsInJvbGUiOiIxIiwiZXhwIjoxNjQ5MTY3MTcxLCJpc3MiOiJQYWluZWwud2ViQVBJIiwiYXVkIjoiUGFpbmVsLndlYkFQSSJ9.Hc0UWWoYy06Bvc1CSOiFDXklBJOqEfqAhrNKpTzKu6w",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"body": {
@@ -23,7 +33,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/CadastrarCampanha",
+					"raw": "http://localhost:5000/api/Campanhas/ListarTodos",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -31,7 +41,8 @@
 					"port": "5000",
 					"path": [
 						"api",
-						"CadastrarCampanha"
+						"Campanhas",
+						"ListarTodos"
 					]
 				}
 			},
@@ -156,6 +167,76 @@
 					"path": [
 						"api",
 						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar Campanha",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imp1c2NlbGlub0B0ZXN0ZS5jb20iLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsInJvbGUiOiIxIiwiZXhwIjoxNjQ5MzQyMTg4LCJpc3MiOiJQYWluZWwud2ViQVBJIiwiYXVkIjoiUGFpbmVsLndlYkFQSSJ9.L76AAq4L9Xn6vH0DtpjNFkGPNKVzhwUQPAaAlbocWJA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Campanhas/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Campanhas",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastrar Usuario",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imp1c2NlbGlub0B0ZXN0ZS5jb20iLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsInJvbGUiOiIxIiwiZXhwIjoxNjQ5Njc3OTcwLCJpc3MiOiJQYWluZWwud2ViQVBJIiwiYXVkIjoiUGFpbmVsLndlYkFQSSJ9.InuxHFWLHhmzfFHJ77_mrJKQFLu0ybOYxTmchcHIK4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idTipoUsuario\": 3,\r\n  \"nomeUsuario\": \"Teste\",\r\n  \"email\": \"teste@teste.com\",\r\n  \"senha\": \"123456789\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Usuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Usuario"
 					]
 				}
 			},

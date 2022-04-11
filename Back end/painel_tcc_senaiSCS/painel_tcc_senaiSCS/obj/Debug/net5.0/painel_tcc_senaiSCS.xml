@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>painel_tcc_senaiSCS</name>
+    </assembly>
+    <members>
+        <member name="M:painel_tcc_senaiSCS.Controllers.CampanhasController.ListarTodos">
+            <summary>
+            Lista Todas as Campanhas!!
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:painel_tcc_senaiSCS.Controllers.CampanhasController.BuscarPorId(System.Int32)">
+            <summary>
+            Busca uma campanha pelo id
+            </summary>
+            <param name="idCadastrarCampanha"></param>
+            <returns></returns>
+        </member>
+        <member name="M:painel_tcc_senaiSCS.Controllers.CampanhasController.Atualizar(System.Int32,painel_tcc_senaiSCS.Domains.CadastrarCampanha)">
+            <summary>
+            Atualiza uma campanha existente
+            </summary>
+            <param name="idCadastrarCampanha"></param>
+            <param name="CampanhaAtualizada"></param>
+            <returns></returns>
+        </member>
+        <member name="M:painel_tcc_senaiSCS.Controllers.CampanhasController.Deletar(System.Int32)">
+            <summary>
+            Deleta uma Campanha existente!!
+            </summary>
+            <param name="idCadastrarCampanha"></param>
+            <returns></returns>
+        </member>
+        <member name="M:painel_tcc_senaiSCS.Controllers.CampanhasController.Cadastrar(painel_tcc_senaiSCS.Domains.CadastrarCampanha,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Cadastra uma Campanha com Upload de imagem
+            </summary>
+            <param name="campanha"></param>
+            <param name="arquivo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:painel_tcc_senaiSCS.Controllers.LoginController.Login(painel_tcc_senaiSCS.ViewModels.LoginViewModel)">
+            <summary>
+            Método responsável por fazer o login na api
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Campanha.Utils.Upload.UploadFile(Microsoft.AspNetCore.Http.IFormFile,System.String[])">
+            <summary>
+            Faz o upload do arquivo para o servidor
+            </summary>
+            <param name="arquivo">Arquivo vindo de um formulário</param>
+            <param name="extensoesPermitidas">Array com extensões permitidas apenas</param>
+            <returns>Nome do arquivo salvo</returns>
+        </member>
+        <member name="M:Campanha.Utils.Upload.ValidarExtensao(System.String[],System.String)">
+            <summary>
+            Valida o uso de enxtensões permitidas apenas
+            </summary>
+            <param name="extensoes">Array de extensões permitidas</param>
+            <param name="nomeDoArquivo">Nome do arquivo</param>
+            <returns>Verdadeiro/Falso</returns>
+        </member>
+        <member name="M:Campanha.Utils.Upload.RemoverArquivo(System.String)">
+            <summary>
+            Remove um arquivo do servidor
+            </summary>
+            <param name="nomeDoArquivo">Nome do Arquivo</param>
+        </member>
+        <member name="M:Campanha.Utils.Upload.RetornarExtensao(System.String)">
+            <summary>
+            Retorna a extensão de um arquivo
+            </summary>
+            <param name="nomeDoArquivo">Nome do Arquivo</param>
+            <returns>Retorna a extensão de um arquivo</returns>
+        </member>
+    </members>
+</doc>

@@ -218,3 +218,5 @@ C:\Users\45626492836.INFOSCS\Desktop\testte\tcc_senaiSCS\Back end\painel_tcc_sen
 C:\Users\45626492836.INFOSCS\Desktop\testte\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\ref\painel_tcc_senaiSCS.dll
 C:\Users\45626492836.INFOSCS\Desktop\testte\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.pdb
 C:\Users\45626492836.INFOSCS\Desktop\testte\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.genruntimeconfig.cache
+C:\Users\45626492836.INFOSCS\Desktop\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\painel_tcc_senaiSCS.xml
+C:\Users\45626492836.INFOSCS\Desktop\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.xml

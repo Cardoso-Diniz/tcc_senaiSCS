@@ -19,13 +19,13 @@ namespace painel_tcc_senaiSCS.Controllers
     {
         private readonly ICampanhasRepository _campanhasRepository;
 
-       /// <summary>
+      
         public CampanhasController(ICampanhasRepository context)
         {
             _campanhasRepository = context;
         }
         /// <summary>
-        /// Listar Todas as Campanhas
+        /// Lista Todas as Campanhas!!
         /// </summary>
         /// <returns></returns>
         //[Authorize(Roles = "2")]
@@ -38,8 +38,8 @@ namespace painel_tcc_senaiSCS.Controllers
         /// <summary>
         /// Busca uma campanha pelo id
         /// </summary>
-        /// <param name="idCadastrarCampanha">id da campanha a ser buscado</param>
-        /// <returns>Uma campanha encontrado com status code - 200</returns>
+        /// <param name="idCadastrarCampanha"></param>
+        /// <returns></returns>
         [HttpGet("{idCadastrarCampanha}")]
         public IActionResult BuscarPorId(int idCadastrarCampanha)
         {
@@ -53,7 +53,7 @@ namespace painel_tcc_senaiSCS.Controllers
         }
 
         /// <summary>
-        /// Atualiza uma Campanha existente!!
+        /// Atualiza uma campanha existente
         /// </summary>
         /// <param name="idCadastrarCampanha"></param>
         /// <param name="CampanhaAtualizada"></param>
@@ -75,19 +75,34 @@ namespace painel_tcc_senaiSCS.Controllers
 
         }
 
-        /// <summary>
-        /// Deleta uma campanha
-        /// </summary>
-        /// <param name="idCadastrarCampanha"></param>
-        /// <returns></returns>
+         /// <summary>
+         /// Deleta uma Campanha existente!!
+         /// </summary>
+         /// <param name="idCadastrarCampanha"></param>
+         /// <returns></returns>
+      
         [HttpDelete("{idCadastrarCampanha}")]
         public IActionResult Deletar(int idCadastrarCampanha)
         {
-            _campanhasRepository.Deletar(idCadastrarCampanha);
+            try
+            {
+                // Faz a chamada para o método
+                _campanhasRepository.Deletar(idCadastrarCampanha);
 
-            return StatusCode(204);
+                // Retorna um status code
+                return StatusCode(204);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
         }
-
+        /// <summary>
+        /// Cadastra uma Campanha com Upload de imagem
+        /// </summary>
+        /// <param name="campanha"></param>
+        /// <param name="arquivo"></param>
+        /// <returns></returns>
         [HttpPost]
         public IActionResult Cadastrar([FromForm] CadastrarCampanha campanha, IFormFile arquivo)
         {
