@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace painel_tcc_senaiSCS.Controllers
 {
-    [Produces("application/json")]  
+    [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
     public class UsuariosController : ControllerBase
@@ -24,7 +24,7 @@ namespace painel_tcc_senaiSCS.Controllers
         }
 
         //[Authorize(Roles = "1,2")]
-        [HttpGet]
+        [HttpGet("Listar")]
         public IActionResult Listar()
         {
             try
@@ -51,7 +51,7 @@ namespace painel_tcc_senaiSCS.Controllers
             }
         }
 
-        [Authorize(Roles = "1")]
+        //[Authorize(Roles = "1")]
         [HttpPost]  
         public IActionResult Cadastro(Usuario NovoUser)
         {
@@ -68,7 +68,7 @@ namespace painel_tcc_senaiSCS.Controllers
             }
         }
 
-        [Authorize(Roles = "1,2")]
+        //[Authorize(Roles = "1,2")]
         [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
         {
@@ -83,7 +83,7 @@ namespace painel_tcc_senaiSCS.Controllers
             }
         }
 
-        [Authorize(Roles = "1,2")]
+        //[Authorize(Roles = "1,2")]
         [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Usuario NovoUser)
         {

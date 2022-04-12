@@ -59,7 +59,7 @@ namespace painel_tcc_senaiSCS.Controllers
         /// <param name="CampanhaAtualizada"></param>
         /// <returns></returns>
         //[Authorize(Roles = "2")]
-        [HttpPut("{idClinica}")]
+        [HttpPut("{idCadastrarCampanha}")]
         public IActionResult Atualizar(int idCadastrarCampanha, CadastrarCampanha CampanhaAtualizada)
         {
             try
