@@ -24,6 +24,7 @@ idUsuario int foreign key references Usuario(idUsuario),
 nomeCampanha varchar(500),
 dataInicio datetime,
 dataFim datetime,
-arquivo varchar(500)
+arquivo varchar(500),
+descricao varchar(500)
 );
 GO

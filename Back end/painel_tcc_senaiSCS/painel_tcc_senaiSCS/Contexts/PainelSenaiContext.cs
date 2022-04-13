@@ -30,7 +30,7 @@ namespace painel_tcc_senaiSCS.Contexts
                 IConfigurationRoot configuration = new ConfigurationBuilder()
                 .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
                 .AddJsonFile("appsettings.json")
-                .Build();   
+                .Build();
                 // Pc do Senai
                 optionsBuilder.UseSqlServer(configuration.GetConnectionString("PainelSenai"));
             }
@@ -43,7 +43,7 @@ namespace painel_tcc_senaiSCS.Contexts
             modelBuilder.Entity<CadastrarCampanha>(entity =>
             {
                 entity.HasKey(e => e.IdCampanha)
-                    .HasName("PK__Cadastra__64DAD299C52EC13B");
+                    .HasName("PK__Cadastra__64DAD2997478EF44");
 
                 entity.ToTable("CadastrarCampanha");
 
@@ -62,6 +62,11 @@ namespace painel_tcc_senaiSCS.Contexts
                     .HasColumnType("datetime")
                     .HasColumnName("dataInicio");
 
+                entity.Property(e => e.Descricao)
+                    .HasMaxLength(500)
+                    .IsUnicode(false)
+                    .HasColumnName("descricao");
+
                 entity.Property(e => e.IdUsuario).HasColumnName("idUsuario");
 
                 entity.Property(e => e.NomeCampanha)
@@ -78,7 +83,7 @@ namespace painel_tcc_senaiSCS.Contexts
             modelBuilder.Entity<TipoUsuario>(entity =>
             {
                 entity.HasKey(e => e.IdTipoUsuario)
-                    .HasName("PK__TipoUsua__03006BFFAC2A72BA");
+                    .HasName("PK__TipoUsua__03006BFF759B76C7");
 
                 entity.ToTable("TipoUsuario");
 
@@ -94,7 +99,7 @@ namespace painel_tcc_senaiSCS.Contexts
             modelBuilder.Entity<Usuario>(entity =>
             {
                 entity.HasKey(e => e.IdUsuario)
-                    .HasName("PK__Usuario__645723A6474B1FBB");
+                    .HasName("PK__Usuario__645723A689865A60");
 
                 entity.ToTable("Usuario");
 
@@ -113,7 +118,7 @@ namespace painel_tcc_senaiSCS.Contexts
                     .HasColumnName("nomeUsuario");
 
                 entity.Property(e => e.Senha)
-                    .HasMaxLength(8)
+                    .HasMaxLength(100)
                     .IsUnicode(false)
                     .HasColumnName("senha");
 

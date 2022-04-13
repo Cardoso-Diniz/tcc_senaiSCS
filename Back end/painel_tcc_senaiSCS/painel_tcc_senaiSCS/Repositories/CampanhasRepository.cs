@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using painel_tcc_senaiSCS.Contexts;
 using painel_tcc_senaiSCS.Domains;
 using painel_tcc_senaiSCS.Interfaces;
@@ -18,13 +19,14 @@ namespace painel_tcc_senaiSCS.Repositories
         {
             CadastrarCampanha CadastrarCampanhaBuscada = BuscarPorId(id);
 
-            if (CadastrarCampanhaBuscada.IdUsuario != null && CadastrarCampanhaBuscada.NomeCampanha != null && CadastrarCampanhaBuscada.DataInicio != null && CadastrarCampanhaBuscada.DataFim != null && CadastrarCampanhaBuscada.Arquivo != null)
+            if (CadastrarCampanhaBuscada.IdUsuario != null && CadastrarCampanhaBuscada.NomeCampanha != null && CadastrarCampanhaBuscada.DataInicio != null && CadastrarCampanhaBuscada.DataFim != null && CadastrarCampanhaBuscada.Arquivo != null && CadastrarCampanhaBuscada.Descricao != null)
             {
                 CadastrarCampanhaBuscada.IdUsuario = CadastrarCampanhaBuscada.IdUsuario;
                 CadastrarCampanhaBuscada.NomeCampanha = CadastrarCampanhaBuscada.NomeCampanha;
                 CadastrarCampanhaBuscada.DataInicio = CadastrarCampanhaBuscada.DataInicio;
                 CadastrarCampanhaBuscada.DataFim = CadastrarCampanhaBuscada.DataFim;
                 CadastrarCampanhaBuscada.Arquivo = CadastrarCampanhaBuscada.Arquivo;
+                CadastrarCampanhaBuscada.Descricao = CadastrarCampanhaBuscada.Descricao;
             }
 
             ctx.CadastrarCampanhas.Update(CadastrarCampanhaBuscada);
@@ -56,7 +58,25 @@ namespace painel_tcc_senaiSCS.Repositories
 
         public List<CadastrarCampanha> ListarTodos()
         {
-            return ctx.CadastrarCampanhas.ToList();
+            return ctx.CadastrarCampanhas
+
+                .Include(u => u.IdUsuarioNavigation)
+
+                .Select(c => new CadastrarCampanha
+                {
+                    IdCampanha = c.IdCampanha,
+                    NomeCampanha = c.NomeCampanha,
+                    DataInicio = c.DataInicio,
+                    DataFim = c.DataFim,
+                    Descricao = c.Descricao,
+
+                    IdUsuarioNavigation = new Usuario
+                    {
+                        IdUsuario = c.IdUsuarioNavigation.IdUsuario,
+                        NomeUsuario = c.IdUsuarioNavigation.NomeUsuario
+                    }
+                })
+                 .ToList();
         }
     }
 }

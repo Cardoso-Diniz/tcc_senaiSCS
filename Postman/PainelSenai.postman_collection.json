@@ -121,7 +121,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"email\": \"juscelino@teste.com \",\r\n  \"senha\": \"12345678\"\r\n}",
+					"raw": "{\r\n  \"email\": \"jucelino@teste.com \",\r\n  \"senha\": \"12345678\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -237,6 +237,46 @@
 					"path": [
 						"api",
 						"Usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar Usuario",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imp1c2NlbGlub0B0ZXN0ZS5jb20iLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsInJvbGUiOiIxIiwiZXhwIjoxNjQ5Njc5MDU2LCJpc3MiOiJQYWluZWwud2ViQVBJIiwiYXVkIjoiUGFpbmVsLndlYkFQSSJ9.Mvz1YeqGzoqWPdVp6ToeCxWJcnmMUeZAPdvrjfXOF5c",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Usuario/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Usuario",
+						""
 					]
 				}
 			},
