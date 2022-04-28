@@ -26,7 +26,7 @@ namespace painel_tcc_senaiSCS.Controllers
         }
 
         /// <summary>
-        /// Método responsável por fazer o login na api
+        /// Método responsável por fazer o login
         /// </summary>
         /// <param name="login"></param>
         /// <returns></returns>

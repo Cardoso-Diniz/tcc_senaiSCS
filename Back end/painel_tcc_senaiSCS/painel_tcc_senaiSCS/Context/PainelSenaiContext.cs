@@ -6,7 +6,7 @@ using painel_tcc_senaiSCS.Domains;
 
 #nullable disable
 
-namespace painel_tcc_senaiSCS.Contexts
+namespace painel_tcc_senaiSCS.Context
 {
     public partial class PainelSenaiContext : DbContext
     {
@@ -43,7 +43,7 @@ namespace painel_tcc_senaiSCS.Contexts
             modelBuilder.Entity<CadastrarCampanha>(entity =>
             {
                 entity.HasKey(e => e.IdCampanha)
-                    .HasName("PK__Cadastra__64DAD2997478EF44");
+                    .HasName("PK__Cadastra__64DAD299C3E8D436");
 
                 entity.ToTable("CadastrarCampanha");
 
@@ -83,7 +83,7 @@ namespace painel_tcc_senaiSCS.Contexts
             modelBuilder.Entity<TipoUsuario>(entity =>
             {
                 entity.HasKey(e => e.IdTipoUsuario)
-                    .HasName("PK__TipoUsua__03006BFF759B76C7");
+                    .HasName("PK__TipoUsua__03006BFF513EB198");
 
                 entity.ToTable("TipoUsuario");
 
@@ -99,7 +99,7 @@ namespace painel_tcc_senaiSCS.Contexts
             modelBuilder.Entity<Usuario>(entity =>
             {
                 entity.HasKey(e => e.IdUsuario)
-                    .HasName("PK__Usuario__645723A689865A60");
+                    .HasName("PK__Usuario__645723A69E79EDA4");
 
                 entity.ToTable("Usuario");
 

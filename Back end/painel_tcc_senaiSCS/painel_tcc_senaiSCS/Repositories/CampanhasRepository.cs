@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
-using painel_tcc_senaiSCS.Contexts;
+using painel_tcc_senaiSCS.Context;
 using painel_tcc_senaiSCS.Domains;
 using painel_tcc_senaiSCS.Interfaces;
 using System;
@@ -19,7 +19,7 @@ namespace painel_tcc_senaiSCS.Repositories
         {
             CadastrarCampanha CadastrarCampanhaBuscada = BuscarPorId(id);
 
-            if (CadastrarCampanhaBuscada.IdUsuario != null && CadastrarCampanhaBuscada.NomeCampanha != null && CadastrarCampanhaBuscada.DataInicio != null && CadastrarCampanhaBuscada.DataFim != null && CadastrarCampanhaBuscada.Arquivo != null && CadastrarCampanhaBuscada.Descricao != null)
+            if (CadastrarCampanhaBuscada.IdUsuario != null && CadastrarCampanhaBuscada.NomeCampanha != null && CadastrarCampanhaBuscada.DataInicio != null && CadastrarCampanhaBuscada.DataFim != null && CadastrarCampanhaBuscada.Arquivo != null && CadastrarCampanhaBuscada.Descricao != null && CadastrarCampanhaBuscada.CampanhaAtiva != null)
             {
                 CadastrarCampanhaBuscada.IdUsuario = CadastrarCampanhaBuscada.IdUsuario;
                 CadastrarCampanhaBuscada.NomeCampanha = CadastrarCampanhaBuscada.NomeCampanha;
@@ -27,6 +27,7 @@ namespace painel_tcc_senaiSCS.Repositories
                 CadastrarCampanhaBuscada.DataFim = CadastrarCampanhaBuscada.DataFim;
                 CadastrarCampanhaBuscada.Arquivo = CadastrarCampanhaBuscada.Arquivo;
                 CadastrarCampanhaBuscada.Descricao = CadastrarCampanhaBuscada.Descricao;
+                CadastrarCampanhaBuscada.CampanhaAtiva = CadastrarCampanhaBuscada.CampanhaAtiva;
             }
 
             ctx.CadastrarCampanhas.Update(CadastrarCampanhaBuscada);
@@ -68,7 +69,10 @@ namespace painel_tcc_senaiSCS.Repositories
                     NomeCampanha = c.NomeCampanha,
                     DataInicio = c.DataInicio,
                     DataFim = c.DataFim,
+                    Arquivo = c.Arquivo,
                     Descricao = c.Descricao,
+                    CampanhaAtiva = c.CampanhaAtiva,
+
 
                     IdUsuarioNavigation = new Usuario
                     {
@@ -76,7 +80,8 @@ namespace painel_tcc_senaiSCS.Repositories
                         NomeUsuario = c.IdUsuarioNavigation.NomeUsuario
                     }
                 })
-                 .ToList();
+
+                .ToList();
         }
     }
 }

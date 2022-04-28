@@ -1,7 +1,6 @@
 ﻿using Campanha.Utils;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using painel_tcc_senaiSCS.Contexts;
 using painel_tcc_senaiSCS.Domains;
 using painel_tcc_senaiSCS.Interfaces;
 using painel_tcc_senaiSCS.Repositories;
@@ -25,7 +24,7 @@ namespace painel_tcc_senaiSCS.Controllers
             _campanhasRepository = context;
         }
         /// <summary>
-        /// Lista Todas as Campanhas!!
+        /// Lista todas as campanhas
         /// </summary>
         /// <returns></returns>
         //[Authorize(Roles = "2")]
@@ -76,7 +75,7 @@ namespace painel_tcc_senaiSCS.Controllers
         }
 
          /// <summary>
-         /// Deleta uma Campanha existente!!
+         /// Deleta uma campanha existente
          /// </summary>
          /// <param name="idCadastrarCampanha"></param>
          /// <returns></returns>
@@ -98,7 +97,7 @@ namespace painel_tcc_senaiSCS.Controllers
             }
         }
         /// <summary>
-        /// Cadastra uma Campanha com Upload de imagem
+        /// Cadastra a campanha junto com a imagem
         /// </summary>
         /// <param name="campanha"></param>
         /// <param name="arquivo"></param>
@@ -108,7 +107,7 @@ namespace painel_tcc_senaiSCS.Controllers
         {
 
             #region Upload da Imagem com extensões permitidas apenas
-            string[] extensoesPermitidas = { "jpg", "png", "jpeg", "gif" };
+            string[] extensoesPermitidas = { "jpg", "png", "jpeg", "gif", "mp4" };
             string uploadResultado = Upload.UploadFile(arquivo, extensoesPermitidas);
 
             if (uploadResultado == "")

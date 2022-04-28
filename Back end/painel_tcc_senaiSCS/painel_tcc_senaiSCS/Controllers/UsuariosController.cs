@@ -23,9 +23,13 @@ namespace painel_tcc_senaiSCS.Controllers
             Usuario = new UsuariosRepository();
         }
 
+        /// <summary>
+        /// Lista todos os usuarios
+        /// </summary>
+        /// <returns></returns>
         //[Authorize(Roles = "1,2")]
         [HttpGet("Listar")]
-        public IActionResult Listar()
+        public IActionResult ListarTodos()
         {
             try
             {
@@ -37,7 +41,11 @@ namespace painel_tcc_senaiSCS.Controllers
             }
         }
 
-
+        /// <summary>
+        /// Busca os usuarios pelo id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public IActionResult BuscarPorId(int id)
         {
@@ -50,7 +58,11 @@ namespace painel_tcc_senaiSCS.Controllers
                 return BadRequest(ex);
             }
         }
-
+        /// <summary>
+        /// Cadastra um novo Usuario
+        /// </summary>
+        /// <param name="NovoUser"></param>
+        /// <returns></returns>
         //[Authorize(Roles = "1")]
         [HttpPost]  
         public IActionResult Cadastro(Usuario NovoUser)
@@ -67,7 +79,11 @@ namespace painel_tcc_senaiSCS.Controllers
                 return BadRequest(ex);
             }
         }
-
+        /// <summary>
+        /// Deleta um usuario
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         //[Authorize(Roles = "1,2")]
         [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
@@ -82,7 +98,12 @@ namespace painel_tcc_senaiSCS.Controllers
                 return BadRequest(ex);
             }
         }
-
+        /// <summary>
+        /// Atualiza informações do usuario
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="NovoUser"></param>
+        /// <returns></returns>
         //[Authorize(Roles = "1,2")]
         [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Usuario NovoUser)
