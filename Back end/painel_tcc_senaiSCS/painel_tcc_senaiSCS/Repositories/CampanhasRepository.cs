@@ -60,28 +60,21 @@ namespace painel_tcc_senaiSCS.Repositories
         public List<CadastrarCampanha> ListarTodos()
         {
             return ctx.CadastrarCampanhas
-
-                .Include(u => u.IdUsuarioNavigation)
-
                 .Select(c => new CadastrarCampanha
                 {
                     IdCampanha = c.IdCampanha,
+                    IdUsuarioNavigation = new Usuario  
+                    {
+                        IdUsuario = c.IdUsuarioNavigation.IdUsuario,
+                        NomeUsuario = c.IdUsuarioNavigation.NomeUsuario
+                    },
                     NomeCampanha = c.NomeCampanha,
                     DataInicio = c.DataInicio,
                     DataFim = c.DataFim,
                     Arquivo = c.Arquivo,
                     Descricao = c.Descricao,
                     CampanhaAtiva = c.CampanhaAtiva,
-
-
-                    IdUsuarioNavigation = new Usuario
-                    {
-                        IdUsuario = c.IdUsuarioNavigation.IdUsuario,
-                        NomeUsuario = c.IdUsuarioNavigation.NomeUsuario
-                    }
-                })
-
-                .ToList();
+                }).ToList();
         }
     }
 }
