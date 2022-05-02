@@ -27,7 +27,6 @@ namespace painel_tcc_senaiSCS.Controllers
         /// Lista todos os usuarios
         /// </summary>
         /// <returns></returns>
-        //[Authorize(Roles = "1,2")]
         [HttpGet("Listar")]
         public IActionResult ListarTodos()
         {
@@ -63,7 +62,6 @@ namespace painel_tcc_senaiSCS.Controllers
         /// </summary>
         /// <param name="NovoUser"></param>
         /// <returns></returns>
-        //[Authorize(Roles = "1")]
         [HttpPost]  
         public IActionResult Cadastro(Usuario NovoUser)
         {
@@ -72,7 +70,6 @@ namespace painel_tcc_senaiSCS.Controllers
                 Usuario.Cadastrar(NovoUser);
 
                 return Ok(Usuario.Listar().Last());
-                //return StatusCode(201); 
             }
             catch (Exception ex)
             {
@@ -84,7 +81,6 @@ namespace painel_tcc_senaiSCS.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        //[Authorize(Roles = "1,2")]
         [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
         {
@@ -104,7 +100,7 @@ namespace painel_tcc_senaiSCS.Controllers
         /// <param name="id"></param>
         /// <param name="NovoUser"></param>
         /// <returns></returns>
-        //[Authorize(Roles = "1,2")]
+        [Authorize(Roles = "1")]
         [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Usuario NovoUser)
         {

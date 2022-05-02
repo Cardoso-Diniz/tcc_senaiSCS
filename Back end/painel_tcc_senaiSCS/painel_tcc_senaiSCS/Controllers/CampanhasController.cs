@@ -1,4 +1,5 @@
 ﻿using Campanha.Utils;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using painel_tcc_senaiSCS.Domains;
@@ -27,7 +28,6 @@ namespace painel_tcc_senaiSCS.Controllers
         /// Lista todas as campanhas
         /// </summary>
         /// <returns></returns>
-        //[Authorize(Roles = "2")]
         [HttpGet("ListarTodos")]
         public IActionResult ListarTodos()
         {
@@ -57,7 +57,6 @@ namespace painel_tcc_senaiSCS.Controllers
         /// <param name="idCadastrarCampanha"></param>
         /// <param name="CampanhaAtualizada"></param>
         /// <returns></returns>
-        //[Authorize(Roles = "2")]
         [HttpPut("{idCadastrarCampanha}")]
         public IActionResult Atualizar(int idCadastrarCampanha, CadastrarCampanha CampanhaAtualizada)
         {
@@ -74,12 +73,11 @@ namespace painel_tcc_senaiSCS.Controllers
 
         }
 
-         /// <summary>
-         /// Deleta uma campanha existente
-         /// </summary>
-         /// <param name="idCadastrarCampanha"></param>
-         /// <returns></returns>
-      
+        /// <summary>
+        /// Deleta uma campanha existente
+        /// </summary>
+        /// <param name="idCadastrarCampanha"></param>
+        /// <returns></returns>
         [HttpDelete("{idCadastrarCampanha}")]
         public IActionResult Deletar(int idCadastrarCampanha)
         {
