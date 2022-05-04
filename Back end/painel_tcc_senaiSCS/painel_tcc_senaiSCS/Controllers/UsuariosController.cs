@@ -81,6 +81,7 @@ namespace painel_tcc_senaiSCS.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
+        //[Authorize(Roles = "1")]
         [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
         {
@@ -100,7 +101,6 @@ namespace painel_tcc_senaiSCS.Controllers
         /// <param name="id"></param>
         /// <param name="NovoUser"></param>
         /// <returns></returns>
-        [Authorize(Roles = "1")]
         [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Usuario NovoUser)
         {

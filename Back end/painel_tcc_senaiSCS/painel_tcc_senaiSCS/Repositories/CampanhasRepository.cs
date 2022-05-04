@@ -56,6 +56,11 @@ namespace painel_tcc_senaiSCS.Repositories
 
             ctx.SaveChanges();
         }
+        public List<CadastrarCampanha> AtivoList()
+        {
+            return ctx.CadastrarCampanhas.Where(r => r.CampanhaAtiva == true).ToList();
+        }
+
 
         public List<CadastrarCampanha> ListarTodos()
         {

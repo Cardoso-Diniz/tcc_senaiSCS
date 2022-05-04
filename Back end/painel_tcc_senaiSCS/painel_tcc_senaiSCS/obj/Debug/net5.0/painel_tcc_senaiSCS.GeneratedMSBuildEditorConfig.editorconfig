@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = painel_tcc_senaiSCS
-build_property.ProjectDir = C:\Users\45626492836.INFOSCS\Desktop\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\
+build_property.ProjectDir = C:\Users\45626492836.INFOSCS\Desktop\deploy\deploy_backend\painel_tcc_senaiSCS\painel_tcc_senaiSCS\

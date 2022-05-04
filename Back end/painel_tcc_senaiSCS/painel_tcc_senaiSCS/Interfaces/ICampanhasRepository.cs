@@ -10,6 +10,7 @@ namespace painel_tcc_senaiSCS.Interfaces
     public interface ICampanhasRepository
     {
         List<CadastrarCampanha> ListarTodos();
+        List<CadastrarCampanha> AtivoList();
         CadastrarCampanha BuscarPorId(int idCadastrarCampanha);
         void Cadastrar(CadastrarCampanha CadastrarNovaCampanha);
         void Atualizar(int id, CadastrarCampanha CampanhaAtualizada);

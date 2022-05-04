@@ -32,6 +32,12 @@
             <param name="idCadastrarCampanha"></param>
             <returns></returns>
         </member>
+        <member name="M:painel_tcc_senaiSCS.Controllers.CampanhasController.AtivoList">
+            <summary>
+            Lista todas as campanhas ativas
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:painel_tcc_senaiSCS.Controllers.CampanhasController.Cadastrar(painel_tcc_senaiSCS.Domains.CadastrarCampanha,Microsoft.AspNetCore.Http.IFormFile)">
             <summary>
             Cadastra a campanha junto com a imagem

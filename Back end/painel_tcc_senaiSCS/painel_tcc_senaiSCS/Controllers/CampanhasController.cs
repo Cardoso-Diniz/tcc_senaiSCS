@@ -95,6 +95,22 @@ namespace painel_tcc_senaiSCS.Controllers
             }
         }
         /// <summary>
+        /// Lista todas as campanhas ativas
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("AtivoList")]
+        public IActionResult AtivoList()
+        {
+            try
+            {
+                return Ok(_campanhasRepository.AtivoList());
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
+        /// <summary>
         /// Cadastra a campanha junto com a imagem
         /// </summary>
         /// <param name="campanha"></param>

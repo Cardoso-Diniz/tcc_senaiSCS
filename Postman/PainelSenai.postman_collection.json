@@ -56,7 +56,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imp1c2NlbGlub0B0ZXN0ZS5jb20iLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsInJvbGUiOiIxIiwiZXhwIjoxNjQ4NjQ3MDUwLCJpc3MiOiJQYWluZWwud2ViQVBJIiwiYXVkIjoiUGFpbmVsLndlYkFQSSJ9.TkyQKXKJIkqVr0Em9rd-xhoA9lQyBhDSQXdOUyP0mLE",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imp1Y2VsaW5vQHRlc3RlLmNvbSIsImp0aSI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIxIiwicm9sZSI6IjEiLCJleHAiOjE2NTEyMzUwNTAsImlzcyI6IlBhaW5lbC53ZWJBUEkiLCJhdWQiOiJQYWluZWwud2ViQVBJIn0.ePIUwlDmZLkA_4Eb6yNCUKlopyvjnx6TjznYy47z1Ts",
 							"type": "string"
 						}
 					]
@@ -69,12 +69,13 @@
 						{
 							"key": "Arquivo",
 							"type": "file",
-							"src": "/C:/Users/45626492836.INFOSCS/Downloads/MAIO-AMARELO-e1558701364442-300x271.jpg"
+							"src": "/C:/Users/45626492836.INFOSCS/Pictures/Camera Roll/WIN_20220125_10_07_38_Pro.mp4"
 						},
 						{
 							"key": "idCampanha",
 							"value": "3",
-							"type": "text"
+							"type": "text",
+							"disabled": true
 						},
 						{
 							"key": "idUsuario",
@@ -83,23 +84,33 @@
 						},
 						{
 							"key": "NomeCampanha",
-							"value": "MaioAmarelo",
+							"value": "ThiagoDelas",
 							"type": "text"
 						},
 						{
 							"key": "DataInicio",
-							"value": "01/05/2022",
+							"value": "2022/04/01",
 							"type": "text"
 						},
 						{
 							"key": "DataFim",
-							"value": "31/05/2022",
+							"value": "2022/04/29",
+							"type": "text"
+						},
+						{
+							"key": "Descricao",
+							"value": "Thiago Lindao gostoso maravilhoso",
+							"type": "text"
+						},
+						{
+							"key": "campanhaAtiva",
+							"value": "true",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/Campanhas/1",
+					"raw": "http://localhost:5000/api/Campanhas",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -107,8 +118,7 @@
 					"port": "5000",
 					"path": [
 						"api",
-						"Campanhas",
-						"1"
+						"Campanhas"
 					]
 				}
 			},
@@ -211,7 +221,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imp1c2NlbGlub0B0ZXN0ZS5jb20iLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsInJvbGUiOiIxIiwiZXhwIjoxNjQ5Njc3OTcwLCJpc3MiOiJQYWluZWwud2ViQVBJIiwiYXVkIjoiUGFpbmVsLndlYkFQSSJ9.InuxHFWLHhmzfFHJ77_mrJKQFLu0ybOYxTmchcHIK4",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imp1c2NlbGlub0B0ZXN0ZS5jb20iLCJqdGkiOiIxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsInJvbGUiOiIxIiwiZXhwIjoxNjQ5NzY0Mjk0LCJpc3MiOiJQYWluZWwud2ViQVBJIiwiYXVkIjoiUGFpbmVsLndlYkFQSSJ9.awU3_WuUASdSV5HMqKiAbjFmg49tAAgkzPWNNHO0PkY",
 							"type": "string"
 						}
 					]
@@ -220,7 +230,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"idTipoUsuario\": 3,\r\n  \"nomeUsuario\": \"Teste\",\r\n  \"email\": \"teste@teste.com\",\r\n  \"senha\": \"123456789\"\r\n  }",
+					"raw": "{\r\n  \"idTipoUsuario\": 3,\r\n  \"nomeUsuario\": \"Cardoso Teste\",\r\n  \"email\": \"cardoso@teste.com\",\r\n  \"senha\": \"123456789\"\r\n  }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -228,7 +238,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/Usuario",
+					"raw": "http://localhost:5000/api/Usuarios",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -236,7 +246,7 @@
 					"port": "5000",
 					"path": [
 						"api",
-						"Usuario"
+						"Usuarios"
 					]
 				}
 			},
@@ -277,6 +287,37 @@
 						"api",
 						"Usuario",
 						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Usuario",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imp1Y2VsaW5vQHRlc3RlLmNvbSIsImp0aSI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIxIiwicm9sZSI6IjEiLCJleHAiOjE2NTE0OTI4NjUsImlzcyI6IlBhaW5lbC53ZWJBUEkiLCJhdWQiOiJQYWluZWwud2ViQVBJIn0.2uLbgfRaeVxADlfq3X92SCwc-roZAarqoun_hpz_FwY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Usuarios/Listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Usuarios",
+						"Listar"
 					]
 				}
 			},
