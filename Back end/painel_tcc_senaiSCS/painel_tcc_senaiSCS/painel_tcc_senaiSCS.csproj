@@ -3,15 +3,37 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="Controllers\LoginController.cs" />
-    <Compile Remove="Controllers\LoginU.cs" />
-  </ItemGroup>
 	<PropertyGroup>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<NoWarn>$(NoWarn);1591</NoWarn>
 	</PropertyGroup>
+	<ItemGroup>
+	  <Compile Remove="Context\Controllers\**" />
+	  <Content Remove="Context\Controllers\**" />
+	  <EmbeddedResource Remove="Context\Controllers\**" />
+	  <None Remove="Context\Controllers\**" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="StaticFiles\Images\192ff6b5-0b20-403f-8358-36778bab3d87.jpeg" />
+	  <None Remove="StaticFiles\Images\2cc78ac8-29cf-4bdf-a3b8-469a06444fc6.png" />
+	  <None Remove="StaticFiles\Images\31849f95-ecf7-46a1-bf63-d8c1662b3da2.png" />
+	  <None Remove="StaticFiles\Images\4a54fe8a-6621-4ff8-9886-4e072ba9858f.mp4" />
+	  <None Remove="StaticFiles\Images\4af9fc1a-804f-4e38-947a-d02f26bd87fa.mp4" />
+	  <None Remove="StaticFiles\Images\526895b4-de65-4de3-ba66-d7e9e7313b33.mp4" />
+	  <None Remove="StaticFiles\Images\596b18e0-a505-45a4-9e59-087b17767f5f.mp4" />
+	  <None Remove="StaticFiles\Images\6e6f18fa-7d8f-4ea7-991f-7471ab290769.mp4" />
+	  <None Remove="StaticFiles\Images\8c3c1ff4-59ff-407d-ab44-79af65514f3d.jpg" />
+	  <None Remove="StaticFiles\Images\8fde10db-98b2-415a-9f08-660588845ced.png" />
+	  <None Remove="StaticFiles\Images\a969ed54-ec38-4284-af5e-8221e47d0f16.jpg" />
+	  <None Remove="StaticFiles\Images\a98ec4b4-b23a-44f3-9b5b-446191a0a84d.png" />
+	  <None Remove="StaticFiles\Images\c0209451-ced6-4335-8513-fb52b9ca7590.mp4" />
+	  <None Remove="StaticFiles\Images\cdd441fc-67cf-44d4-adc4-6bbb4f2c7737.png" />
+	  <None Remove="StaticFiles\Images\d30df379-8fe4-40fd-8941-eac6e4411f36.png" />
+	  <None Remove="StaticFiles\Images\d438c8e7-1458-4834-ac57-d1810937d4d6.mp4" />
+	  <None Remove="StaticFiles\Images\e11f0569-4e4d-4c4a-ab0f-00fbc89a6ba7.mp4" />
+	  <None Remove="StaticFiles\Images\e8cb8797-fd56-4023-8cd1-4622189aeb1e.png" />
+	  <None Remove="StaticFiles\Images\ee37b977-8541-464c-8fde-13c4ebc29e10.mp4" />
+	</ItemGroup>
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.14" />
@@ -28,6 +50,26 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.16.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="StaticFiles\Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="StaticFiles\Images\0b039d0a-74e2-4b96-b251-2491f31486bc.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="StaticFiles\Images\139e615a-2117-4958-8757-2e52a95271af.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="StaticFiles\Images\823e0b4d-ba41-4ac2-9f14-062240b9b8d8.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="StaticFiles\Images\926a9b31-f1e2-41e2-aa69-a1de3a9179c3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="StaticFiles\Images\b7e18437-fe61-4341-84c6-766ec1762846.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

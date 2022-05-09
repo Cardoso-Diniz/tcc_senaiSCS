@@ -16,10 +16,10 @@ namespace painel_tcc_senaiSCS.Repositories
         {
             Usuario UsuarioBuscado = BuscarPorId(id);
 
-            if (NovoUsuario.IdTipoUsuario > 0 && NovoUsuario.NomeUsuario != null && NovoUsuario.Email != null && NovoUsuario.Senha != null)
+            if (UsuarioBuscado.IdTipoUsuario > 0 && UsuarioBuscado.NomeUsuario != null && UsuarioBuscado.Email != null && UsuarioBuscado.Senha != null)
             {
-                UsuarioBuscado.IdTipoUsuario = NovoUsuario.IdTipoUsuario;
-                UsuarioBuscado.NomeUsuario = NovoUsuario.NomeUsuario;
+                UsuarioBuscado.IdTipoUsuario = UsuarioBuscado.IdTipoUsuario;
+                UsuarioBuscado.NomeUsuario = UsuarioBuscado.NomeUsuario;
                 UsuarioBuscado.Email = NovoUsuario.Email;
                 UsuarioBuscado.Senha = NovoUsuario.Senha;
                 ctx.Usuarios.Update(UsuarioBuscado);

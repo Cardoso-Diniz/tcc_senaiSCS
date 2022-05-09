@@ -64,7 +64,7 @@ namespace painel_tcc_senaiSCS.Controllers
             {
                 _campanhasRepository.Atualizar(idCadastrarCampanha, CampanhaAtualizada);
 
-                return StatusCode(204);
+                return Ok("A campanha informada foi atualizada!!");
             }
             catch (Exception erro)
             {
@@ -78,6 +78,7 @@ namespace painel_tcc_senaiSCS.Controllers
         /// </summary>
         /// <param name="idCadastrarCampanha"></param>
         /// <returns></returns>
+        [Authorize(Roles = "1,2")]
         [HttpDelete("{idCadastrarCampanha}")]
         public IActionResult Deletar(int idCadastrarCampanha)
         {
@@ -87,7 +88,7 @@ namespace painel_tcc_senaiSCS.Controllers
                 _campanhasRepository.Deletar(idCadastrarCampanha);
 
                 // Retorna um status code
-                return StatusCode(204);
+                return Ok("A campanha informada foi deleta com sucesso!!");
             }
             catch (Exception ex)
             {

@@ -50,7 +50,7 @@ namespace painel_tcc_senaiSCS.Controllers
                     new Claim("role", UsuarioBuscado.IdTipoUsuario.ToString())
                 };
 
-                var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("painel-chave-autenticao"));
+                var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("painel-chave-autenticacao"));
 
                 var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 

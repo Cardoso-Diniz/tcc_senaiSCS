@@ -27,6 +27,7 @@ namespace painel_tcc_senaiSCS.Controllers
         /// Lista todos os usuarios
         /// </summary>
         /// <returns></returns>
+        [Authorize(Roles = "1")]
         [HttpGet("Listar")]
         public IActionResult ListarTodos()
         {
@@ -62,6 +63,7 @@ namespace painel_tcc_senaiSCS.Controllers
         /// </summary>
         /// <param name="NovoUser"></param>
         /// <returns></returns>
+        [Authorize(Roles = "1")]
         [HttpPost]  
         public IActionResult Cadastro(Usuario NovoUser)
         {
@@ -81,7 +83,7 @@ namespace painel_tcc_senaiSCS.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        //[Authorize(Roles = "1")]
+        [Authorize(Roles = "1")]
         [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
         {
