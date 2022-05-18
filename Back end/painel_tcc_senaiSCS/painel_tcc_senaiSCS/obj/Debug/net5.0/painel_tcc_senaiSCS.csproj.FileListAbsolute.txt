@@ -304,3 +304,8 @@ C:\Users\guica\Desktop\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_sena
 C:\Users\guica\Desktop\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\StaticFiles\Images\b7e18437-fe61-4341-84c6-766ec1762846.jpg
 C:\Users\guica\Desktop\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\painel_tcc_senaiSCS.xml
 C:\Users\guica\Desktop\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\45626492836.INFOSCS\Desktop\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\StaticFiles\Images\0b039d0a-74e2-4b96-b251-2491f31486bc.jpg
+C:\Users\45626492836.INFOSCS\Desktop\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\StaticFiles\Images\139e615a-2117-4958-8757-2e52a95271af.jpg
+C:\Users\45626492836.INFOSCS\Desktop\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\StaticFiles\Images\823e0b4d-ba41-4ac2-9f14-062240b9b8d8.png
+C:\Users\45626492836.INFOSCS\Desktop\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\StaticFiles\Images\926a9b31-f1e2-41e2-aa69-a1de3a9179c3.png
+C:\Users\45626492836.INFOSCS\Desktop\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\StaticFiles\Images\b7e18437-fe61-4341-84c6-766ec1762846.jpg

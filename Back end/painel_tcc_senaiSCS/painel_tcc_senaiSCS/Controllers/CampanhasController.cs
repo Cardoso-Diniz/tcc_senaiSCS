@@ -144,20 +144,5 @@ namespace painel_tcc_senaiSCS.Controllers
             return Created("Campanha", campanha);
         }
 
-        [HttpPut("updateStatusCampanha")]
-        public IActionResult Update(int idCadastrarCampanha, AtualizarCampanhaViewModel CampanhaAtualizada)
-        {
-            try
-            {
-                _campanhasRepository.Update(idCadastrarCampanha, CampanhaAtualizada);
-
-                return Ok("A campanha informada foi atualizada!!");
-            }
-            catch (Exception erro)
-            {
-                return BadRequest(erro);
-            }
-
-        }
     }
 }

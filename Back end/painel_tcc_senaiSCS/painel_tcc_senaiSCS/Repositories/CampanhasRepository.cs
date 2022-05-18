@@ -82,22 +82,5 @@ namespace painel_tcc_senaiSCS.Repositories
                     CampanhaAtiva = c.CampanhaAtiva,
                 }).ToList();
         }
-
-        //public void Update(int id, AtualizarCampanhaViewModel UpdateList)
-        //{
-
-        //    CadastrarCampanha cadastrarCampanha = new CadastrarCampanha();
-        //    cadastrarCampanha.CampanhaAtiva = false;
-        //    ctx.CadastrarCampanhas.Update(cadastrarCampanha);
-        //    ctx.SaveChanges();
-        //    CadastrarCampanha CadastrarCampanhaBuscada = BuscarPorId(id);
-
-        //    if (CadastrarCampanhaBuscada.CampanhaAtiva != null)
-        //    {
-        //        CadastrarCampanhaBuscada.CampanhaAtiva = UpdateList.CampanhaAtiva;
-        //    }
-        //    ctx.CadastrarCampanhas.Update(CadastrarCampanhaBuscada);
-        //    ctx.SaveChanges();
-        //}
     }
 }

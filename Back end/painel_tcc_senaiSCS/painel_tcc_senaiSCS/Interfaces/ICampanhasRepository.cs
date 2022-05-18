@@ -15,7 +15,6 @@ namespace painel_tcc_senaiSCS.Interfaces
         CadastrarCampanha BuscarPorId(int idCadastrarCampanha);
         void Cadastrar(CadastrarCampanha CadastrarNovaCampanha);
         void Atualizar(int id, CadastrarCampanha CampanhaAtualizada);
-        void Update(int id, AtualizarCampanhaViewModel UpdateList);
         void Deletar(int id);
     }
 }
