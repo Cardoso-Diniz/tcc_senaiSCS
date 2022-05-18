@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using painel_tcc_senaiSCS.Context;
 using painel_tcc_senaiSCS.Domains;
 using painel_tcc_senaiSCS.Interfaces;
+using painel_tcc_senaiSCS.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,13 +22,13 @@ namespace painel_tcc_senaiSCS.Repositories
 
             if (CadastrarCampanhaBuscada.IdUsuario != null && CadastrarCampanhaBuscada.NomeCampanha != null && CadastrarCampanhaBuscada.DataInicio != null && CadastrarCampanhaBuscada.DataFim != null && CadastrarCampanhaBuscada.Arquivo != null && CadastrarCampanhaBuscada.Descricao != null && CadastrarCampanhaBuscada.CampanhaAtiva != null)
             {
-                CadastrarCampanhaBuscada.IdUsuario = CadastrarCampanhaBuscada.IdUsuario;
-                CadastrarCampanhaBuscada.NomeCampanha = CadastrarCampanhaBuscada.NomeCampanha;
-                CadastrarCampanhaBuscada.DataInicio = CadastrarCampanhaBuscada.DataInicio;
-                CadastrarCampanhaBuscada.DataFim = CadastrarCampanhaBuscada.DataFim;
-                CadastrarCampanhaBuscada.Arquivo = CadastrarCampanhaBuscada.Arquivo;
-                CadastrarCampanhaBuscada.Descricao = CadastrarCampanhaBuscada.Descricao;
-                CadastrarCampanhaBuscada.CampanhaAtiva = CadastrarCampanhaBuscada.CampanhaAtiva;
+                CadastrarCampanhaBuscada.IdUsuario = CampanhaAtualizada.IdUsuario;
+                CadastrarCampanhaBuscada.NomeCampanha = CampanhaAtualizada.NomeCampanha;
+                CadastrarCampanhaBuscada.DataInicio = CampanhaAtualizada.DataInicio;
+                CadastrarCampanhaBuscada.DataFim = CampanhaAtualizada.DataFim;
+                CadastrarCampanhaBuscada.Arquivo = CampanhaAtualizada.Arquivo;
+                CadastrarCampanhaBuscada.Descricao = CampanhaAtualizada.Descricao;
+                CadastrarCampanhaBuscada.CampanhaAtiva = CampanhaAtualizada.CampanhaAtiva;
             }
 
             ctx.CadastrarCampanhas.Update(CadastrarCampanhaBuscada);
@@ -81,5 +82,22 @@ namespace painel_tcc_senaiSCS.Repositories
                     CampanhaAtiva = c.CampanhaAtiva,
                 }).ToList();
         }
+
+        //public void Update(int id, AtualizarCampanhaViewModel UpdateList)
+        //{
+
+        //    CadastrarCampanha cadastrarCampanha = new CadastrarCampanha();
+        //    cadastrarCampanha.CampanhaAtiva = false;
+        //    ctx.CadastrarCampanhas.Update(cadastrarCampanha);
+        //    ctx.SaveChanges();
+        //    CadastrarCampanha CadastrarCampanhaBuscada = BuscarPorId(id);
+
+        //    if (CadastrarCampanhaBuscada.CampanhaAtiva != null)
+        //    {
+        //        CadastrarCampanhaBuscada.CampanhaAtiva = UpdateList.CampanhaAtiva;
+        //    }
+        //    ctx.CadastrarCampanhas.Update(CadastrarCampanhaBuscada);
+        //    ctx.SaveChanges();
+        //}
     }
 }

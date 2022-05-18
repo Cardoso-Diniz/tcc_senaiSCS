@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using painel_tcc_senaiSCS.Domains;
+using painel_tcc_senaiSCS.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,7 @@ namespace painel_tcc_senaiSCS.Interfaces
         CadastrarCampanha BuscarPorId(int idCadastrarCampanha);
         void Cadastrar(CadastrarCampanha CadastrarNovaCampanha);
         void Atualizar(int id, CadastrarCampanha CampanhaAtualizada);
+        void Update(int id, AtualizarCampanhaViewModel UpdateList);
         void Deletar(int id);
     }
 }

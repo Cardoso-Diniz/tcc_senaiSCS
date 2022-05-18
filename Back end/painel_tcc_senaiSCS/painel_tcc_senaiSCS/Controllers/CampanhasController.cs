@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using painel_tcc_senaiSCS.Domains;
 using painel_tcc_senaiSCS.Interfaces;
 using painel_tcc_senaiSCS.Repositories;
+using painel_tcc_senaiSCS.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -141,6 +142,22 @@ namespace painel_tcc_senaiSCS.Controllers
             _campanhasRepository.Cadastrar(campanha);
 
             return Created("Campanha", campanha);
+        }
+
+        [HttpPut("updateStatusCampanha")]
+        public IActionResult Update(int idCadastrarCampanha, AtualizarCampanhaViewModel CampanhaAtualizada)
+        {
+            try
+            {
+                _campanhasRepository.Update(idCadastrarCampanha, CampanhaAtualizada);
+
+                return Ok("A campanha informada foi atualizada!!");
+            }
+            catch (Exception erro)
+            {
+                return BadRequest(erro);
+            }
+
         }
     }
 }
