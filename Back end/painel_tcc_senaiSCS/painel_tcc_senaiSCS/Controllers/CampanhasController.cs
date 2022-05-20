@@ -89,7 +89,7 @@ namespace painel_tcc_senaiSCS.Controllers
                 _campanhasRepository.Deletar(idCadastrarCampanha);
 
                 // Retorna um status code
-                return Ok("A campanha informada foi deleta com sucesso!!");
+                return Ok("A campanha informada, foi deleta com sucesso!!");
             }
             catch (Exception ex)
             {
