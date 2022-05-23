@@ -20,7 +20,7 @@ namespace painel_tcc_senaiSCS.Controllers
     {
         private readonly ICampanhasRepository _campanhasRepository;
 
-      
+
         public CampanhasController(ICampanhasRepository context)
         {
             _campanhasRepository = context;
@@ -122,27 +122,24 @@ namespace painel_tcc_senaiSCS.Controllers
         public IActionResult Cadastrar([FromForm] CadastrarCampanha campanha, IFormFile arquivo)
         {
 
-            #region Upload da Imagem com extensões permitidas apenas
-            string[] extensoesPermitidas = { "jpg", "png", "jpeg", "gif", "mp4" };
-            string uploadResultado = Upload.UploadFile(arquivo, extensoesPermitidas);
-
-            if (uploadResultado == "")
-            {
-                return BadRequest("Arquivo não encontrado");
-            }
-
-            if (uploadResultado == "Extensão não permitida")
-            {
-                return BadRequest("Extensão de arquivo não permitida");
-            }
-
-            campanha.Arquivo = uploadResultado;
-            #endregion
-
             _campanhasRepository.Cadastrar(campanha);
 
             return Created("Campanha", campanha);
         }
+        //[Authorize(Roles = "1,2")]
+        [HttpPatch("Ativo/{idCadastrarCampanha}")]
+        public IActionResult AtualizarBool(int idCadastrarCampanha, CadastrarCampanha AtivoAtualizado)
+        {
+            try
+            {
+                _campanhasRepository.AtualizarBool(idCadastrarCampanha,AtivoAtualizado);
+                return Ok("A campanha foi atualizada com sucesso!!");
+            }
+            catch (Exception exception)
+            {
+                return BadRequest(exception);
+            }
 
+        }
     }
 }

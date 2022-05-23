@@ -82,5 +82,14 @@ namespace painel_tcc_senaiSCS.Repositories
                     CampanhaAtiva = c.CampanhaAtiva,
                 }).ToList();
         }
+
+        public void AtualizarBool(int idCadastrarCampanha, CadastrarCampanha AtivoAtualizado)
+        {
+            CadastrarCampanha CadastrarCampanhaBuscada = BuscarPorId(idCadastrarCampanha);
+            CadastrarCampanhaBuscada.CampanhaAtiva = AtivoAtualizado.CampanhaAtiva;
+            ctx.CadastrarCampanhas.Update(CadastrarCampanhaBuscada);
+            ctx.SaveChanges();
+
+        }
     }
 }
