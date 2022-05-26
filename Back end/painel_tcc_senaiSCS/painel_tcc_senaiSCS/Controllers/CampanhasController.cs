@@ -128,11 +128,11 @@ namespace painel_tcc_senaiSCS.Controllers
         }
         //[Authorize(Roles = "1,2")]
         [HttpPatch("Ativo/{idCadastrarCampanha}")]
-        public IActionResult AtualizarBool(int idCadastrarCampanha, CadastrarCampanha AtivoAtualizado)
+        public IActionResult AtualizarBool(int idCadastrarCampanha)
         {
             try
             {
-                _campanhasRepository.AtualizarBool(idCadastrarCampanha,AtivoAtualizado);
+                _campanhasRepository.AtualizarBool(idCadastrarCampanha);
                 return Ok("A campanha foi atualizada com sucesso!!");
             }
             catch (Exception exception)

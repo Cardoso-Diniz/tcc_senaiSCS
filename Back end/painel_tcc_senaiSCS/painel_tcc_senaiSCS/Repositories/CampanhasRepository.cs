@@ -83,10 +83,19 @@ namespace painel_tcc_senaiSCS.Repositories
                 }).ToList();
         }
 
-        public void AtualizarBool(int idCadastrarCampanha, CadastrarCampanha AtivoAtualizado)
+        public void AtualizarBool(int idCadastrarCampanha)
         {
             CadastrarCampanha CadastrarCampanhaBuscada = BuscarPorId(idCadastrarCampanha);
-            CadastrarCampanhaBuscada.CampanhaAtiva = AtivoAtualizado.CampanhaAtiva;
+            if (CadastrarCampanhaBuscada.CampanhaAtiva == true)
+            {
+                CadastrarCampanhaBuscada.CampanhaAtiva = false;
+
+               
+            }
+            else if (CadastrarCampanhaBuscada.CampanhaAtiva == false)
+            {
+                CadastrarCampanhaBuscada.CampanhaAtiva = true;
+            }
             ctx.CadastrarCampanhas.Update(CadastrarCampanhaBuscada);
             ctx.SaveChanges();
 

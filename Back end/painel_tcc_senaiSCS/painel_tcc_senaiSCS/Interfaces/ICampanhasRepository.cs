@@ -16,6 +16,6 @@ namespace painel_tcc_senaiSCS.Interfaces
         void Cadastrar(CadastrarCampanha CadastrarNovaCampanha);
         void Atualizar(int id, CadastrarCampanha CampanhaAtualizada);
         void Deletar(int id);
-        void AtualizarBool(int idCadastrarCampanha, CadastrarCampanha AtivoAtualizado);
+        void AtualizarBool(int idCadastrarCampanha);
     }
 }
