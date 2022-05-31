@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using painel_tcc_senaiSCS.Context;
 using painel_tcc_senaiSCS.Domains;
@@ -41,7 +42,7 @@ namespace painel_tcc_senaiSCS.Repositories
             return ctx.CadastrarCampanhas.FirstOrDefault(c => c.IdCampanha == idCadastrarCampanha);
         }
 
-        public void Cadastrar(CadastrarCampanha CadastrarNovaCampanha)
+        public void Cadastrar([FromForm] CadastrarCampanha CadastrarNovaCampanha)
         {
             ctx.CadastrarCampanhas.Add(CadastrarNovaCampanha);
 

@@ -309,3 +309,160 @@ C:\Users\45626492836.INFOSCS\Desktop\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\p
 C:\Users\45626492836.INFOSCS\Desktop\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\StaticFiles\Images\823e0b4d-ba41-4ac2-9f14-062240b9b8d8.png
 C:\Users\45626492836.INFOSCS\Desktop\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\StaticFiles\Images\926a9b31-f1e2-41e2-aa69-a1de3a9179c3.png
 C:\Users\45626492836.INFOSCS\Desktop\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\StaticFiles\Images\b7e18437-fe61-4341-84c6-766ec1762846.jpg
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\appsettings.json
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\painel_tcc_senaiSCS.StaticWebAssets.xml
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\painel_tcc_senaiSCS.exe
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\StaticFiles\Images\0b039d0a-74e2-4b96-b251-2491f31486bc.jpg
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\StaticFiles\Images\139e615a-2117-4958-8757-2e52a95271af.jpg
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\StaticFiles\Images\823e0b4d-ba41-4ac2-9f14-062240b9b8d8.png
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\StaticFiles\Images\926a9b31-f1e2-41e2-aa69-a1de3a9179c3.png
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\StaticFiles\Images\b7e18437-fe61-4341-84c6-766ec1762846.jpg
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\painel_tcc_senaiSCS.deps.json
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\painel_tcc_senaiSCS.runtimeconfig.json
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\painel_tcc_senaiSCS.runtimeconfig.dev.json
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\painel_tcc_senaiSCS.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\ref\painel_tcc_senaiSCS.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\painel_tcc_senaiSCS.pdb
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\painel_tcc_senaiSCS.xml
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Humanizer.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.csproj.AssemblyReference.cache
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.AssemblyInfoInputs.cache
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.AssemblyInfo.cs
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.csproj.CoreCompileInputs.cache
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\scopedcss\bundle\painel_tcc_senaiSCS.styles.css
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\staticwebassets\painel_tcc_senaiSCS.StaticWebAssets.Manifest.cache
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.RazorTargetAssemblyInfo.cache
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.csproj.CopyComplete
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\ref\painel_tcc_senaiSCS.dll
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.xml
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.pdb
+C:\Users\49200278850.INFOSCS\Desktop\Connect_SC Painel\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.genruntimeconfig.cache
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\appsettings.json
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\painel_tcc_senaiSCS.exe
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\painel_tcc_senaiSCS.deps.json
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\painel_tcc_senaiSCS.runtimeconfig.json
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\painel_tcc_senaiSCS.runtimeconfig.dev.json
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\painel_tcc_senaiSCS.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\ref\painel_tcc_senaiSCS.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\painel_tcc_senaiSCS.pdb
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\painel_tcc_senaiSCS.xml
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Humanizer.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.csproj.AssemblyReference.cache
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.AssemblyInfoInputs.cache
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.AssemblyInfo.cs
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.csproj.CoreCompileInputs.cache
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\staticwebassets\painel_tcc_senaiSCS.StaticWebAssets.Manifest.cache
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\staticwebassets\painel_tcc_senaiSCS.StaticWebAssets.xml
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\scopedcss\bundle\painel_tcc_senaiSCS.styles.css
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.RazorTargetAssemblyInfo.cache
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.csproj.CopyComplete
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\ref\painel_tcc_senaiSCS.dll
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.xml
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.pdb
+C:\Users\45626492836.INFOSCS\Desktop\Connect_SC-ProjetoFinal\tcc_senaiSCS\Back end\painel_tcc_senaiSCS\painel_tcc_senaiSCS\obj\Debug\net5.0\painel_tcc_senaiSCS.genruntimeconfig.cache

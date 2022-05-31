@@ -119,9 +119,21 @@ namespace painel_tcc_senaiSCS.Controllers
         /// <param name="arquivo"></param>
         /// <returns></returns>
         [HttpPost]
-        public IActionResult Cadastrar([FromForm] CadastrarCampanha campanha, IFormFile arquivo)
+        public IActionResult Cadastrar([FromForm] CadastrarCampanha campanha,IFormFile arquivo)
         {
+            string[] extensoesPermitidas = { "jpg", "png", "jpeg" };
+            string uploadResultado = Upload.UploadFile(arquivo, extensoesPermitidas);
 
+            if (uploadResultado == "")
+            {
+                return BadRequest("Arquivo não encontrado");
+            }
+
+            if (uploadResultado == "Extensão não permitida")
+            {
+                return BadRequest("Extensão de arquivo não permitida");
+            }
+            campanha.Arquivo = uploadResultado;
             _campanhasRepository.Cadastrar(campanha);
 
             return Created("Campanha", campanha);
